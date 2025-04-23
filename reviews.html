@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отзывы — ПРО-ОГЭ/ЕГЭ</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/reviews.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.jpg" alt="Логотип школы" class="header__logo-image">
+        </a>
+        <nav class="menu" aria-label="Главное меню">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link">Главная</a></li>
+                <li><a href="catalog.html" class="menu__link">Курсы</a></li>
+                <li><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                <li><a href="teachers.html" class="menu__link">Учителя</a></li>
+            </ul>
+        </nav>
+        <a href="registration.html" class="button button--login">Вход</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="reviews-section">
+      <div class="container">
+        <h1 class="section__title">Что говорят наши ученики</h1>
+
+        <div id="reviewsList" class="reviews-grid">
+          <div class="review-card fade-in">
+            <p class="review-text">Сдала ОГЭ по математике на 5! Огромное спасибо преподавателю!</p>
+            <p class="review-author">— Кристина, 9 класс</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Было сложно, но вы меня реально прокачали. Профмат теперь не страшен.</p>
+            <p class="review-author">— Максим, 11 класс</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Очень доброжелательные учителя. Никогда не скучно!</p>
+            <p class="review-author">— Амина, 10 класс</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Проходил подготовку летом — супер формат, структурированные темы.</p>
+            <p class="review-author">— Даниил, выпускник</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Крутая школа, поддержка всегда рядом. Рекомендую!</p>
+            <p class="review-author">— Алина, 9 класс</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Английский с носителем был вообще топ. Теперь не боюсь устной части.</p>
+            <p class="review-author">— Саша, 11 класс</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Спасибо за возможность учиться онлайн — очень удобно!</p>
+            <p class="review-author">— Никита, 10 класс</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Хорошо структурированные курсы. Занятия короткие и по делу.</p>
+            <p class="review-author">— Мария, 9 класс</p>
+          </div>
+          <div class="review-card fade-in">
+            <p class="review-text">Я не верила, что смогу, но с вами получилось! Спасибо!</p>
+            <p class="review-author">— Вера, 11 класс</p>
+          </div>
+        </div>
+
+        <div class="review-form-wrapper">
+          <h2 class="form-title">Оставьте свой отзыв</h2>
+          <form id="reviewForm" class="review-form">
+            <textarea id="reviewText" placeholder="Ваш отзыв..." required></textarea>
+            <input type="text" id="reviewAuthor" placeholder="Ваше имя и класс" required>
+            <button type="submit" class="button">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__logo">
+            <img src="images/logo.jpg" alt="Логотип ПРО-ОГЭ/ЕГЭ" class="footer__logo-img">
+            <h2 class="footer__brand-name">ПРО-ОГЭ/ЕГЭ</h2>
+        </div>
+
+        <div class="footer__links">
+            <ul class="footer__list">
+                <li><a href="/about" class="footer__link">О нас</a></li>
+                <li><a href="/courses" class="footer__link">Курсы</a></li>
+                <li><a href="/contact" class="footer__link">Контакты</a></li>
+                <li><a href="/privacy-policy" class="footer__link">Политика конфиденциальности</a></li>
+                <li><a href="/terms" class="footer__link">Условия использования</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__socials">
+            <a href="https://vk.com" class="footer__social-link" target="_blank" title="ВКонтакте">
+                <img src="images/vk-icon.webp" alt="ВКонтакте" class="footer__social-icon">
+            </a>
+            <a href="https://t.me" class="footer__social-link" target="_blank" title="Telegram">
+                <img src="images/telegram-icon.webp" alt="Telegram" class="footer__social-icon">
+            </a>
+            <a href="https://ok.ru" class="footer__social-link" target="_blank" title="Одноклассники">
+                <img src="images/ok-icon.webp" alt="Одноклассники" class="footer__social-icon">
+            </a>
+        </div>
+
+        <div class="footer__project-info">
+            <p class="footer__text">Проект создали:</p>
+            <p class="footer__text">Полозова Наталья, Батанова Анна, группа СТ-22</p>
+            <p class="footer__text">Telegram: <a href="https://t.me/natashapolozova" target="_blank">@natashapolozova</a>, <a href="https://t.me/chaeeek" target="_blank">@chaeeek</a></p>
+        </div>
+
+        <div class="footer__newsletter">
+            <p class="footer__newsletter-text">Подпишитесь на наши новости:</p>
+            <form class="footer__newsletter-form">
+                <input type="email" class="footer__newsletter-input" placeholder="Ваш email" required>
+                <button type="submit" class="footer__newsletter-button">Подписаться</button>
+            </form>
+        </div>
+
+        <button id="scrollTop" class="scroll-top">Наверх</button>
+    </div>
+
+    <div class="footer__bottom">
+        <p class="footer__text">© 2025 ПРО-ОГЭ/ЕГЭ. Все права защищены.</p>
+    </div>
+</footer>
+
+  <script src="scripts/reviews.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

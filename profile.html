@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Профиль</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/profile.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo">
+                <img src="images/logo.jpg" alt="Логотип школы" class="header__logo-image">
+            </a>
+            <nav class="menu" aria-label="Главное меню">
+                <ul class="menu__list">
+                    <li><a href="index.html" class="menu__link">Главная</a></li>
+                    <li><a href="catalog.html" class="menu__link">Курсы</a></li>
+                    <li><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                    <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    <li><a href="teachers.html" class="menu__link">Учителя</a></li>
+                </ul>
+            </nav>
+            <a href="registration.html" class="button button--login">Вход</a>
+        </div>
+      </header>
+
+  <main class="main container">
+
+    <section class="profile-section profile-header">
+      <div class="avatar-wrapper">
+        <img id="avatar" class="avatar" src="#" alt="Аватар">
+        <input type="file" id="avatar-input" accept="image/*">
+      </div>
+      <div>
+        <h2 id="profile-username"></h2>
+        <p>Email: demo@example.com</p>
+        <p>Цель: 90+ по ЕГЭ</p>
+        <p>Дата регистрации: 10.04.2025</p>
+      </div>
+    </section>
+
+
+    <section class="profile-section">
+      <h2>Прогресс обучения</h2>
+      <div class="progress-block">
+        <label>Русский язык: <span>40%</span></label>
+        <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+      </div>
+      <div class="progress-block">
+        <label>Математика: <span>20%</span></label>
+        <div class="progress-bar"><div class="progress-fill" style="width: 20%; background-color: #ff9933;"></div></div>
+      </div>
+    </section>
+
+
+    <section class="profile-section">
+        <h2>График активности</h2>
+        <div class="chart-container">
+          <canvas id="activityChart"></canvas>
+        </div>
+      </section>
+
+
+    <section class="profile-section">
+      <h2 class="achievement">Достижения</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <h3>Новичок</h3><p>Зарегистрирован</p>
+        </div>
+        <div class="achievement-card">
+          <h3>Учусь усердно</h3><p>10 уроков подряд</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section">
+      <h2 class="settings">Настройки</h2>
+      <form class="settings-form">
+        <label>Email: <input type="email" value="demo@example.com"></label>
+        <label>Пароль: <input type="password" placeholder="Введите новый пароль"></label>
+        <button type="submit" class="btn-primary">Сохранить</button>
+      </form>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scripts/profile.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

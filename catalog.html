@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Курсы — ПРО-ОГЭ/ЕГЭ</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/catalog.css">
+</head>
+<body class="page">
+
+  <header class="header">
+    <div class="container header__container">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.jpg" alt="Логотип школы" class="header__logo-image">
+        </a>
+        <nav class="menu" aria-label="Главное меню">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link">Главная</a></li>
+                <li><a href="catalog.html" class="menu__link">Курсы</a></li>
+                <li><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                <li><a href="teachers.html" class="menu__link">Учителя</a></li>
+            </ul>
+        </nav>
+        <a href="registration.html" class="button button--login">Вход</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section section--blue">
+      <div class="container">
+        <h2 class="section__title">Ближайшие курсы</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Русский язык</h3>
+            <p>Старт: 22 апреля</p>
+            <p>Формат: онлайн, 2 раза в неделю</p>
+          </div>
+          <div class="card">
+            <h3>Математика профиль</h3>
+            <p>Старт: 25 апреля</p>
+            <p>Формат: онлайн + практика</p>
+          </div>
+          <div class="card">
+            <h3>Обществознание</h3>
+            <p>Старт: 1 мая</p>
+            <p>Формат: видеоуроки + куратор</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--lightblue">
+      <div class="container">
+        <h2 class="section__title">Акции и скидки</h2>
+        <div class="promo">
+          <p>Скидка 20% при записи на 2 и более курса!</p>
+          <p>Приведи друга — получи бесплатное занятие.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <h2 class="section__title">Программа курсов</h2>
+        <ul class="course-list">
+          <li class="course-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Анализ экзаменационных заданий</span>
+          </li>
+          <li class="course-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Теория + практика на каждом уроке</span>
+          </li>
+          <li class="course-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Решение типовых и сложных задач</span>
+          </li>
+          <li class="course-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Проверка домашних заданий с комментариями</span>
+          </li>
+          <li class="course-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Поддержка от преподавателя</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--blue">
+      <div class="container">
+        <h2 class="section__title">Форматы обучения</h2>
+        <div class="formats">
+          <div class="format">Онлайн-группы</div>
+          <div class="format">Индивидуально</div>
+          <div class="format">Интенсивы</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <h2 class="section__title">Оставьте заявку на курс</h2>
+        <form class="form">
+          <input class="form__input" type="text" placeholder="Ваше имя" required>
+          <input class="form__input" type="tel" placeholder="Телефон" required>
+          <select class="form__select" required>
+            <option value="">Выберите курс</option>
+            <option>Математика</option>
+            <option>Русский язык</option>
+            <option>Обществознание</option>
+            <option>Физика</option>
+            <option>Химия</option>
+          </select>
+          <button class="form__button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__logo">
+            <img src="images/logo.jpg" alt="Логотип ПРО-ОГЭ/ЕГЭ" class="footer__logo-img">
+            <h2 class="footer__brand-name">ПРО-ОГЭ/ЕГЭ</h2>
+        </div>
+
+        <div class="footer__links">
+            <ul class="footer__list">
+                <li><a href="/about" class="footer__link">О нас</a></li>
+                <li><a href="/courses" class="footer__link">Курсы</a></li>
+                <li><a href="/contact" class="footer__link">Контакты</a></li>
+                <li><a href="/privacy-policy" class="footer__link">Политика конфиденциальности</a></li>
+                <li><a href="/terms" class="footer__link">Условия использования</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__socials">
+            <a href="https://vk.com" class="footer__social-link" target="_blank" title="ВКонтакте">
+                <img src="images/vk-icon.webp" alt="ВКонтакте" class="footer__social-icon">
+            </a>
+            <a href="https://t.me" class="footer__social-link" target="_blank" title="Telegram">
+                <img src="images/telegram-icon.webp" alt="Telegram" class="footer__social-icon">
+            </a>
+            <a href="https://ok.ru" class="footer__social-link" target="_blank" title="Одноклассники">
+                <img src="images/ok-icon.webp" alt="Одноклассники" class="footer__social-icon">
+            </a>
+        </div>
+
+        <div class="footer__project-info">
+            <p class="footer__text">Проект создали:</p>
+            <p class="footer__text">Полозова Наталья, Батанова Анна, группа СТ-22</p>
+            <p class="footer__text">Telegram: <a href="https://t.me/natashapolozova" target="_blank">@natashapolozova</a>, <a href="https://t.me/chaeeek" target="_blank">@chaeeek</a></p>
+        </div>
+
+        <div class="footer__newsletter">
+            <p class="footer__newsletter-text">Подпишитесь на наши новости:</p>
+            <form class="footer__newsletter-form">
+                <input type="email" class="footer__newsletter-input" placeholder="Ваш email" required>
+                <button type="submit" class="footer__newsletter-button">Подписаться</button>
+            </form>
+        </div>
+
+        <button id="scrollTop" class="scroll-top">Наверх</button>
+    </div>
+
+    <div class="footer__bottom">
+        <p class="footer__text">© 2025 ПРО-ОГЭ/ЕГЭ. Все права защищены.</p>
+    </div>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>

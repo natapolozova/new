@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПРО-ОГЭ/ЕГЭ - Онлайн-школа</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+  <div id="scrollProgress"></div>
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+  <header class="header">
+    <div class="container header__container">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.jpg" alt="Логотип школы" class="header__logo-image">
+        </a>
+        <nav class="menu" aria-label="Главное меню">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link">Главная</a></li>
+                <li><a href="catalog.html" class="menu__link">Курсы</a></li>
+                <li><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                <li><a href="teachers.html" class="menu__link">Учителя</a></li>
+            </ul>
+        </nav>
+        <a href="registration.html" class="button button--login">Вход</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+        <div class="container hero__container">
+            <h1 class="hero__title">Подготовься к ОГЭ и ЕГЭ с экспертами</h1>
+            <p class="hero__subtitle">Лучшие курсы и преподаватели для успешной сдачи экзаменов</p>
+            <a href="catalog.html" class="button hero__button">Выбрать курс</a>
+        </div>
+        <div class="hero__image-wrapper">
+            <img src="images/OBJECTS.png" alt="Изображение учителя" class="hero__image" width="890" height="543">
+        </div>
+    </section>
+
+    <section class="courses courses--list">
+        <div class="container">
+            <h2 class="section__title courses__title">Наши курсы</h2>
+            <div class="courses__cards">
+                <div class="course-card">
+                    <img src="images/11556456.jpg" alt="Математика для ОГЭ/ЕГЭ" class="course-card__image">
+                    <h3 class="course-card__title">Математика</h3>
+                    <p class="course-card__description">Подготовка к ОГЭ и ЕГЭ по математике</p>
+                    <a href="catalog.html" class="button button--small course-card__button">Подробнее</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/Studying-amico.png" alt="Русский язык для экзаменов" class="course-card__image">
+                    <h3 class="course-card__title">Русский язык</h3>
+                    <p class="course-card__description">Интенсивная подготовка к экзаменам</p>
+                    <a href="catalog.html" class="button button--small course-card__button">Подробнее</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/Learning-amico.png" alt="Английский язык с носителями" class="course-card__image">
+                    <h3 class="course-card__title">Английский язык</h3>
+                    <p class="course-card__description">Курс с носителями языка</p>
+                    <a href="catalog.html" class="button button--small course-card__button">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <div class="swiper slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/Data-analysis-pana.png" alt="Уроки для школьников"></div>
+          <div class="swiper-slide"><img src="images/Digital-presentation-amico.png" alt="Подготовка к экзаменам"></div>
+          <div class="swiper-slide"><img src="images/High-School-rafiki.png" alt="Подготовка к экзаменам"></div>
+          <div class="swiper-slide"><img src="images/Editorial-commision-pana.png" alt="Наша команда"></div>
+          <div class="swiper-slide"><img src="images/Kids-Studying-from-Home-bro.png" alt="Подготовка к экзаменам"></div>
+          <div class="swiper-slide"><img src="images/Kids-Studying-from-Home-cuate.png" alt="Подготовка к экзаменам"></div>
+          <div class="swiper-slide"><img src="images/Kids-Studying-from-Home-pana.png" alt="Подготовка к экзаменам"></div>
+          <div class="swiper-slide"><img src="images/Learning-amico.png" alt="Подготовка к экзаменам"></div>
+          <div class="swiper-slide"><img src="images/Learning-bro.png" alt="Подготовка к экзаменам"></div>
+          <div class="swiper-slide"><img src="images/Learning-rafiki.png" alt="Подготовка к экзаменам"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+
+      <section class="about">
+        <div class="container about__container">
+          <div class="about__text">
+            <h2 class="about__title">О нашей школе</h2>
+            <p class="about__description">
+              Мы предоставляем качественное образование для подготовки к ОГЭ и ЕГЭ, с опытными преподавателями и современными методами обучения.
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="images/little-girl-drawing-her-tablet_23-2148572262.avif" alt="Учебный процесс" class="about__img" style="width:400px;height:auto;">
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="container">
+          <h2 class="section__title">Почему выбирают нас</h2>
+          <div class="advantages__list" id="advantages-container">
+          </div>
+        </div>
+      </section>
+
+      <section class="steps">
+        <div class="container">
+          <h2 class="section__title">Как проходит обучение</h2>
+          <div class="steps__list">
+            <div class="step">
+              <span class="step__number">1</span>
+              <p class="step__text">Оставьте заявку на сайте</p>
+            </div>
+            <div class="step">
+              <span class="step__number">2</span>
+              <p class="step__text">Получите консультацию от менеджера</p>
+            </div>
+            <div class="step">
+              <span class="step__number">3</span>
+              <p class="step__text">Выберите подходящий курс</p>
+            </div>
+            <div class="step">
+              <span class="step__number">4</span>
+              <p class="step__text">Начните обучение и достигайте целей</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="blog-preview">
+        <div class="container">
+          <h2 class="section__title">Полезные советы</h2>
+          <div class="blog-preview__list">
+            <article class="blog-card">
+              <h3 class="blog-card__title">Как эффективно готовиться к экзаменам</h3>
+              <p class="blog-card__excerpt">5 практических советов, которые помогут выстроить план подготовки и не перегореть.</p>
+              <a href="#" class="blog-card__link">Читать</a>
+            </article>
+            <article class="blog-card">
+              <h3 class="blog-card__title">Что делать за день до ОГЭ/ЕГЭ</h3>
+              <p class="blog-card__excerpt">Узнай, как сохранить спокойствие и зарядиться уверенностью перед экзаменом.</p>
+              <a href="#" class="blog-card__link">Читать</a>
+            </article>
+            <article class="blog-card">
+              <h3 class="blog-card__title">Топ-5 приложений для учёбы</h3>
+              <p class="blog-card__excerpt">Эти приложения помогут учиться быстрее, проще и интереснее.</p>
+              <a href="#" class="blog-card__link">Читать</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      
+      <section class="results">
+        <div class="container">
+          <h2 class="section__title">Наши результаты</h2>
+          <div class="results__stats">
+            <div class="stat" data-aos="zoom-in">
+              <span class="stat__number" data-target="92" data-suffix="%">0%</span>
+              <p class="stat__label">Сдали ЕГЭ на 85+ баллов</p>
+            </div>
+            <div class="stat" data-aos="zoom-in">
+              <span class="stat__number" data-target="1200" data-suffix="+">0+</span>
+              <p class="stat__label">Выпускников</p>
+            </div>
+            <div class="stat" data-aos="zoom-in">
+              <span class="stat__number" data-target="8" data-suffix=" лет">0 лет</span>
+              <p class="stat__label">Опыт успешной подготовки</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="container">
+          <h2 class="section__title">Часто задаваемые вопросы</h2>
+          <div class="faq__list">
+            <details class="faq__item">
+              <summary class="faq__question">Как записаться на курс?</summary>
+              <p class="faq__answer">Нажмите на кнопку "Подробнее" под нужным курсом и заполните заявку.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">Есть ли пробные занятия?</summary>
+              <p class="faq__answer">Да, вы можете посетить пробный урок, чтобы оценить качество обучения.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">Сколько длится курс?</summary>
+              <p class="faq__answer">Средняя продолжительность — 2-4 месяца, в зависимости от программы.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">Какой формат обучения?</summary>
+              <p class="faq__answer">Занятия проходят онлайн, в интерактивном формате с преподавателем.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__logo">
+            <img src="images/logo.jpg" alt="Логотип ПРО-ОГЭ/ЕГЭ" class="footer__logo-img">
+            <h2 class="footer__brand-name">ПРО-ОГЭ/ЕГЭ</h2>
+        </div>
+
+        <div class="footer__links">
+            <ul class="footer__list">
+                <li><a href="/about" class="footer__link">О нас</a></li>
+                <li><a href="/courses" class="footer__link">Курсы</a></li>
+                <li><a href="/contact" class="footer__link">Контакты</a></li>
+                <li><a href="/privacy-policy" class="footer__link">Политика конфиденциальности</a></li>
+                <li><a href="/terms" class="footer__link">Условия использования</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__socials">
+            <a href="https://vk.com" class="footer__social-link" target="_blank" title="ВКонтакте">
+                <img src="images/vk-icon.webp" alt="ВКонтакте" class="footer__social-icon">
+            </a>
+            <a href="https://t.me" class="footer__social-link" target="_blank" title="Telegram">
+                <img src="images/telegram-icon.webp" alt="Telegram" class="footer__social-icon">
+            </a>
+            <a href="https://ok.ru" class="footer__social-link" target="_blank" title="Одноклассники">
+                <img src="images/ok-icon.webp" alt="Одноклассники" class="footer__social-icon">
+            </a>
+        </div>
+
+        <div class="footer__project-info">
+            <p class="footer__text">Проект создали:</p>
+            <p class="footer__text">Полозова Наталья, Батанова Анна, группа СТ-22</p>
+            <p class="footer__text">Telegram: <a href="https://t.me/natashapolozova" target="_blank">@natashapolozova</a>, <a href="https://t.me/chaeeek" target="_blank">@chaeeek</a></p>
+        </div>
+
+        <div class="footer__newsletter">
+            <p class="footer__newsletter-text">Подпишитесь на наши новости:</p>
+            <form class="footer__newsletter-form">
+                <input type="email" class="footer__newsletter-input" placeholder="Ваш email" required>
+                <button type="submit" class="footer__newsletter-button">Подписаться</button>
+            </form>
+        </div>
+
+        <button id="scrollTop" class="scroll-top">Наверх</button>
+    </div>
+
+    <div class="footer__bottom">
+        <p class="footer__text">© 2025 ПРО-ОГЭ/ЕГЭ. Все права защищены.</p>
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="scripts/advantages.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

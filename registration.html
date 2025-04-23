@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вход и Регистрация</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/regitration.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.jpg" alt="Логотип школы" class="header__logo-image">
+        </a>
+        <nav class="menu" aria-label="Главное меню">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link">Главная</a></li>
+                <li><a href="catalog.html" class="menu__link">Курсы</a></li>
+                <li><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                <li><a href="teachers.html" class="menu__link">Учителя</a></li>
+            </ul>
+        </nav>
+        <a href="registration.html" class="button button--login">Вход</a>
+    </div>
+  </header>
+
+  <div class="auth-container">
+    <div class="auth-box">
+      <div class="tab-buttons">
+        <button id="show-login" class="tab active">Вход</button>
+        <button id="show-register" class="tab">Регистрация</button>
+      </div>
+
+      <!-- Форма входа -->
+      <form id="login-form" class="auth-form">
+        <input type="text" id="login-username" placeholder="Имя пользователя" required />
+        <input type="password" id="login-password" placeholder="Пароль" required />
+        <button type="submit" class="btn-primary">Войти</button>
+        <p class="message" id="login-message"></p>
+      </form>
+
+      <!-- Форма регистрации -->
+      <form id="register-form" class="auth-form hidden">
+        <input type="text" id="register-username" placeholder="Имя пользователя" required />
+        <input type="password" id="register-password" placeholder="Пароль" required />
+        <button type="submit" class="btn-primary">Зарегистрироваться</button>
+        <p class="message" id="register-message"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="scripts/registration.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

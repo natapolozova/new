@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учителя — ПРО-ОГЭ/ЕГЭ</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/teachers.css">
+</head>
+<body class="page">
+
+  <header class="header">
+    <div class="container header__container">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.jpg" alt="Логотип школы" class="header__logo-image">
+        </a>
+        <nav class="menu" aria-label="Главное меню">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link">Главная</a></li>
+                <li><a href="catalog.html" class="menu__link">Курсы</a></li>
+                <li><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                <li><a href="teachers.html" class="menu__link">Учителя</a></li>
+            </ul>
+        </nav>
+        <a href="registration.html" class="button button--login">Вход</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section section--white">
+      <div class="container">
+        <h2 class="section__title">Наши преподаватели</h2>
+        <div class="teachers">
+          <div class="teacher-card">
+            <img src="images/happy-student-girl-with-thumbs-up.jpg" alt="Анна Иванова">
+            <h3>Анна Иванова</h3>
+            <p>Преподаватель русского языка, стаж 12 лет. Эксперт ЕГЭ и ОГЭ, автор методических пособий.</p>
+          </div>
+          <div class="teacher-card">
+            <img src="images/view-3d-young-school-student.jpg" alt="Михаил Смирнов">
+            <h3>Михаил Смирнов</h3>
+            <p>Учитель математики, кандидат физ-мат наук. Разработчик собственных курсов по подготовке к ЕГЭ.</p>
+          </div>
+          <div class="teacher-card">
+            <img src="images/teacher.png" alt="Екатерина Лебедева">
+            <h3>Екатерина Лебедева</h3>
+            <p>Преподаватель обществознания. На её курсах более 500 учеников сдали ЕГЭ на 85+ баллов.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--lightblue">
+      <div class="container">
+        <h2 class="section__title">Наш подход к обучению</h2>
+        <ul class="values">
+          <li><i class="fas fa-user-check"></i> Индивидуальный подход к каждому ученику</li>
+          <li><i class="fas fa-chalkboard-teacher"></i> Только опытные педагоги с высоким рейтингом</li>
+          <li><i class="fas fa-graduation-cap"></i> Максимальная концентрация на результат</li>
+          <li><i class="fas fa-heart"></i> Забота, поддержка и мотивация на всем пути</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--blue">
+      <div class="container cta">
+        <h2 class="section__title">Хочешь учиться у лучших?</h2>
+        <p>Оставь заявку на бесплатную консультацию и выбери своего преподавателя!</p>
+        <a href="catalog.html" class="cta__button">Выбрать курс</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__logo">
+            <img src="images/logo.jpg" alt="Логотип ПРО-ОГЭ/ЕГЭ" class="footer__logo-img">
+            <h2 class="footer__brand-name">ПРО-ОГЭ/ЕГЭ</h2>
+        </div>
+
+        <div class="footer__links">
+            <ul class="footer__list">
+                <li><a href="/about" class="footer__link">О нас</a></li>
+                <li><a href="/courses" class="footer__link">Курсы</a></li>
+                <li><a href="/contact" class="footer__link">Контакты</a></li>
+                <li><a href="/privacy-policy" class="footer__link">Политика конфиденциальности</a></li>
+                <li><a href="/terms" class="footer__link">Условия использования</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__socials">
+            <a href="https://vk.com" class="footer__social-link" target="_blank" title="ВКонтакте">
+                <img src="images/vk-icon.webp" alt="ВКонтакте" class="footer__social-icon">
+            </a>
+            <a href="https://t.me" class="footer__social-link" target="_blank" title="Telegram">
+                <img src="images/telegram-icon.webp" alt="Telegram" class="footer__social-icon">
+            </a>
+            <a href="https://ok.ru" class="footer__social-link" target="_blank" title="Одноклассники">
+                <img src="images/ok-icon.webp" alt="Одноклассники" class="footer__social-icon">
+            </a>
+        </div>
+
+        <div class="footer__project-info">
+            <p class="footer__text">Проект создали:</p>
+            <p class="footer__text">Полозова Наталья, Батанова Анна, группа СТ-22</p>
+            <p class="footer__text">Telegram: <a href="https://t.me/natashapolozova" target="_blank">@natashapolozova</a>, <a href="https://t.me/chaeeek" target="_blank">@chaeeek</a></p>
+        </div>
+
+        <div class="footer__newsletter">
+            <p class="footer__newsletter-text">Подпишитесь на наши новости:</p>
+            <form class="footer__newsletter-form">
+                <input type="email" class="footer__newsletter-input" placeholder="Ваш email" required>
+                <button type="submit" class="footer__newsletter-button">Подписаться</button>
+            </form>
+        </div>
+
+        <button id="scrollTop" class="scroll-top">Наверх</button>
+    </div>
+
+    <div class="footer__bottom">
+        <p class="footer__text">© 2025 ПРО-ОГЭ/ЕГЭ. Все права защищены.</p>
+    </div>
+</footer>
+<script src="scripts/teachers.js"></script>  
+<script src="scripts/script.js"></script>
+</body>
+</html>
